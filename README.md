@@ -99,3 +99,7 @@ V1.3.10
    - [x] 在添加账户时 弹出bug(原因：无法解析用户头像)
    - [ ] ~~在选择Dll注入时 自定义Dll路径不包含中文仍弹出提示~~
    - **更多Bug请在Issues反馈哦！❤**
+
+## 使用的UI库
+
+[WPF.UI](https://github.com/zhidanfeng/WPF.UI)
