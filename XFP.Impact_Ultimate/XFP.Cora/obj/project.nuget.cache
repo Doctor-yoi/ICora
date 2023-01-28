@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Tj/MpLR7+xTGJlMFJkULwvSfAeXAOLWdNs4Rtc52XGmQ19XIMUpuxwynFgmf9XiR7p1c8Y6+w4qDqLh3L6rZyg==",
-  "success": false,
+  "dgSpecHash": "sp/Z+B5ofv+Ma24zy7JazDGK/WxiX/efX0YDtx1ECCn/ot5VF+fKBCOlJJhnGFRcBZCq0odBtttfwD+VHdsXkA==",
+  "success": true,
   "projectFilePath": "X:\\icora\\XFP.Impact_Ultimate\\XFP.Cora\\XFP.ICora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yoimi\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
@@ -203,15 +203,6 @@
     "C:\\Users\\Yoimi\\.nuget\\packages\\ttrider.idbconnection-async\\1.1.2\\ttrider.idbconnection-async.1.1.2.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "找不到“X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj”的项目信息。如果使用 Visual Studio，这可能是因为该项目已被卸载或不属于当前解决方案，因此请从命令行运行还原。否则，项目文件可能无效或缺少还原所需的目标。",
-      "libraryId": "X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj",
-      "targetGraphs": [
-        "net7.0-windows7.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

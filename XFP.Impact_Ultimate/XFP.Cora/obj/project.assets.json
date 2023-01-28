@@ -3784,6 +3784,15 @@
         "runtime": {
           "lib/netstandard1.6/TTRider.IDbConnection-Async.dll": {}
         }
+      },
+      "ZUI.Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/ZUI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZUI.Core.dll": {}
+        }
       }
     }
   },
@@ -11274,6 +11283,11 @@
         "ttrider.idbconnection-async.1.1.2.nupkg.sha512",
         "ttrider.idbconnection-async.nuspec"
       ]
+    },
+    "ZUI.Core/1.0.0": {
+      "type": "project",
+      "path": "../../WPF.UI-master/ZdfFlatUI/ZUI.Core.csproj",
+      "msbuildProject": "../../WPF.UI-master/ZdfFlatUI/ZUI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11297,7 +11311,7 @@
       "System.Runtime.WindowsRuntime >= 5.0.0-preview.5.20278.1",
       "System.Text.Json >= 7.0.1",
       "TTRider.IDbConnection-Async >= 1.1.2",
-      "X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj"
+      "ZUI.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11445,15 +11459,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "找不到“X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj”的项目信息。如果使用 Visual Studio，这可能是因为该项目已被卸载或不属于当前解决方案，因此请从命令行运行还原。否则，项目文件可能无效或缺少还原所需的目标。",
-      "libraryId": "X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj",
-      "targetGraphs": [
-        "net7.0-windows7.0"
-      ]
-    },
     {
       "code": "NU1701",
       "level": "Warning",

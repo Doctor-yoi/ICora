@@ -17,7 +17,7 @@ global using System.Windows.Controls;
 global using System.Windows.Input;
 global using System.Windows.Media.Animation;
 global using System.Windows.Media.Imaging;
-global using UI;
+global using Windows.UI;
 global using XFP.ICora.Controls;
 global using XFP.ICora.Controls.Basic;
 global using XFP.ICora.Hoyolab;
