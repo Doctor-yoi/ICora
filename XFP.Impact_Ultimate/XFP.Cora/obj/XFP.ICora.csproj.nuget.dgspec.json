@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "X:\\icora\\XFP.Impact_Ultimate\\XFP.Cora\\XFP.ICora.csproj": {}
+  },
+  "projects": {
+    "X:\\icora\\XFP.Impact_Ultimate\\XFP.Cora\\XFP.ICora.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "X:\\icora\\XFP.Impact_Ultimate\\XFP.Cora\\XFP.ICora.csproj",
+        "projectName": "XFP.ICora",
+        "projectPath": "X:\\icora\\XFP.Impact_Ultimate\\XFP.Cora\\XFP.ICora.csproj",
+        "packagesPath": "C:\\Users\\Yoimi\\.nuget\\packages\\",
+        "outputPath": "X:\\icora\\XFP.Impact_Ultimate\\XFP.Cora\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yoimi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj": {
+                "projectPath": "X:\\icora\\WPF.UI-master\\ZdfFlatUI\\ZUI.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.1.0-preview3, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Dapper.Mapper": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "HandyControl": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.355802, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualBasic": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.1462.37, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.39, )"
+            },
+            "MvvmLight": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "SharpZipLib": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "System.Data.DataSetExtensions": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Runtime.WindowsRuntime": {
+              "target": "Package",
+              "version": "[5.0.0-preview.5.20278.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "TTRider.IDbConnection-Async": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -47,7 +47,7 @@
     <Resource Include="Resources\Transformer.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WPF.UI-master\ZdfFlatUI\ICoraUI.csproj" />
+    <ProjectReference Include="..\..\WPF.UI-master\ZdfFlatUI\ZUI.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GashByte-透明.ico">

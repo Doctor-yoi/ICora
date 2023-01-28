@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">False</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Yoimi\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Yoimi\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.dotnet.upgradeassistant.extensions.default.analyzers\0.4.355802\build\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.dotnet.upgradeassistant.extensions.default.analyzers\0.4.355802\build\Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\Yoimi\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMvvmLight Condition=" '$(PkgMvvmLight)' == '' ">C:\Users\Yoimi\.nuget\packages\mvvmlight\5.4.1.1</PkgMvvmLight>
+    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\Yoimi\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.39</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\Yoimi\.nuget\packages\microsoft.web.webview2\1.0.1462.37</PkgMicrosoft_Web_WebView2>
+    <PkgMicrosoft_DotNet_UpgradeAssistant_Extensions_Default_Analyzers Condition=" '$(PkgMicrosoft_DotNet_UpgradeAssistant_Extensions_Default_Analyzers)' == '' ">C:\Users\Yoimi\.nuget\packages\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\0.4.355802</PkgMicrosoft_DotNet_UpgradeAssistant_Extensions_Default_Analyzers>
+    <PkgHandyControl Condition=" '$(PkgHandyControl)' == '' ">C:\Users\Yoimi\.nuget\packages\handycontrol\3.4.0</PkgHandyControl>
+  </PropertyGroup>
+</Project>
